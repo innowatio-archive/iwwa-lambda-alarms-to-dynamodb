@@ -1,15 +1,15 @@
 {
-  "name": "iwwa-lambda-alarms-consumer",
+  "name": "iwwa-lambda-alarms-to-dynamodb",
   "version": "1.0.0",
-  "description": "Alarms consumer lambda",
+  "description": "Projects alarm-related events from AWS Kinesis into a dynamodb view",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/innowation/iwwa-lambda-alarms-consumer.git"
+    "url": "https://github.com/innowation/iwwa-lambda-alarms-to-dynamodb.git"
   },
   "dependencies": {
     "dotenv": "^1.2.0",
-    "lkd-collection": "^1.0.3"
+    "lk-collection": "^2.1.1"
   },
   "devDependencies": {
     "babel": "^5.6.23",
@@ -18,7 +18,7 @@
     "chai": "^3.1.0",
     "chai-as-promised": "^5.1.0",
     "coveralls": "^2.11.2",
-    "eslint": "^0.24.1",
+    "eslint": "^1.0.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
     "gulp-eslint": "^0.15.0",

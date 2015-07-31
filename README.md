@@ -1,4 +1,8 @@
-# iwwa-lambda-alarms-consumer
+[![Build Status](https://travis-ci.org/innowatio/iwwa-lambda-alarms-to-dynamodb.svg?branch=master)](https://travis-ci.org/innowatio/iwwa-lambda-alarms-to-dynamodb)
+[![Dependency Status](https://david-dm.org/innowatio/iwwa-lambda-alarms-to-dynamodb.svg)](https://david-dm.org/innowatio/iwwa-lambda-alarms-to-dynamodb)
+[![devDependency Status](https://david-dm.org/innowatio/iwwa-lambda-alarms-to-dynamodb/dev-status.svg)](https://david-dm.org/innowatio/iwwa-lambda-alarms-to-dynamodb#info=devDependencies)
+
+# iwwa-lambda-alarms-to-dynamodb
 
 Takes events from AWS Kinesis and builds an alarms materialized view on
 DynamoDB.
